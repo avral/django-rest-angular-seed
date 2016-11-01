@@ -1,0 +1,24 @@
+{
+  "name": "angular_test",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Pavel <qweasd_96@mail.ru>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "directory" : "frontend",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.5",
+    "jquery": "^2.2.3"
+  }
+}
