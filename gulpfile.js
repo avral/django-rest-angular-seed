@@ -5,7 +5,11 @@ var paths = {
     vendor: [
         'static/components/jquery/dist/jquery.min.js',
         'static/components/angular/angular.min.js',
+        'static/components/bootstrap/dist/js/bootstrap.min.js',
         'static/components/angular-ui-router/release/angular-ui-router.min.js',
+        'static/components/angular-resource/angular-resource.min.js',
+        'static/components/angular-bootstrap/ui-bootstrap-tpls.min.js',
+
     ],
     app_views: [
         'frontend/app/views/*.html'
@@ -36,5 +40,6 @@ gulp.task('app_views', function() {
         .pipe(gulp.dest('static/views/'));
 });
 
+gulp.watch('frontend/**/*', ['vendor', 'app_js', 'app_views']);
 
 gulp.task('default', ['vendor', 'app_js', 'app_views']);

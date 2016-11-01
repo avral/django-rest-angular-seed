@@ -7,7 +7,6 @@
   ],
   "license": "MIT",
   "homepage": "",
-  "directory" : "frontend",
   "ignore": [
     "**/.*",
     "node_modules",
